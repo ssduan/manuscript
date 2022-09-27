@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
+
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 21px;
-    padding: 20px;
 }
 
 h1 {
@@ -15,8 +16,7 @@ h1 {
 blockquote {
     font-size: 48px;
     letter-spacing: -2px;
-
-
+    margin: 50px 24px;
 }
 
 p {
@@ -25,8 +25,18 @@ p {
 }
 
 .highlight {
-    background-color:rgb(168, 159, 254);
-    
+    padding: 8px;
     margin: 80px 24px 50px 80px;
 }
 
+a {
+    text-decoration: underline;
+}
+
+.original {
+    background-color: black;
+    margin:0;
+    color: white;
+    padding:30px;
+
+}
