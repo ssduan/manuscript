@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=PT+Serif:ital@0;1&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -11,39 +9,68 @@ h1 {
     font-size: 150px;
     letter-spacing: -8px;
     line-height: 85%;
+    padding-bottom:24px;
 }
 
+hr {
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%
+}
 blockquote {
-    font-size: 48px;
+    font-size: 42px;
     letter-spacing: -2px;
-    margin: 80px 24px;
+    margin: 80px 48px;
  
 }
 
 p {
     margin: auto;
-    margin-bottom:24px; 
+    margin-bottom:24px;
     line-height: 1.5;
     max-width: 800px;
+    margin-top:48px;
 }
 
 .highlight {
     padding: 8px;
-    margin: 80px 24px 50px 80px;
 }
 
 a {
     text-decoration: underline;
 }
 
+a:hover {
+    background-color: plum;
+}
+
 .original {
     background-color: black;
-    margin:0;
     color: white;
     padding:30px;
-
 }
 
 .author {
-    margin: 24px;
+    padding-bottom:24px;
+    margin: 0px;
+}
+
+.response {
+    background-color:#FDF8F8;
+    font-family: 'PT Serif', serif;
+    font-size: 21px;
+    padding: 80px;
+    margin: auto;
+}
+
+h2 {
+    font-size:74px;
+    line-height: 90%;
+    margin-bottom: 24px;
+    letter-spacing: -3px;
+}
+
+h3 {
+    font-size: 42px;
+    letter-spacing: -2px;
+    padding: 12px 0;
 }
