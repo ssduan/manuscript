@@ -2,4 +2,31 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    padding: 20px;
 }
+
+h1 {
+    font-size: 150px;
+    letter-spacing: -8px;
+    line-height: 85%;
+}
+
+blockquote {
+    font-size: 48px;
+    letter-spacing: -2px;
+
+
+}
+
+p {
+    margin: 24px;
+    line-height: 1.5;
+}
+
+.highlight {
+    background-color:rgb(168, 159, 254);
+    
+    margin: 80px 24px 50px 80px;
+}
+
