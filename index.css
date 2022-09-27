@@ -17,11 +17,14 @@ blockquote {
     font-size: 48px;
     letter-spacing: -2px;
     margin: 80px 24px;
+ 
 }
 
 p {
-    margin: 24px;
+    margin: auto;
+    margin-bottom:24px; 
     line-height: 1.5;
+    max-width: 800px;
 }
 
 .highlight {
@@ -39,4 +42,8 @@ a {
     color: white;
     padding:30px;
 
+}
+
+.author {
+    margin: 24px;
 }
