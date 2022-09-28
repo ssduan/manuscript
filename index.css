@@ -8,7 +8,7 @@ body {
 h1 {
     font-size: 150px;
     letter-spacing: -8px;
-    line-height: 85%;
+    line-height: 80%;
     padding-bottom:24px;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 
 h2 {
     font-size:74px;
-    line-height: 90%;
+    line-height: 92%;
     margin-bottom: 24px;
     letter-spacing: -3px;
 }
@@ -73,4 +73,61 @@ h3 {
     font-size: 42px;
     letter-spacing: -2px;
     padding: 12px 0;
+}
+
+mark:nth-child(1) {
+    background-color: #f5f861;
+    color:#2F4F4F;
+    font-family:'Courier New', Courier, monospace;
+}
+
+mark:nth-child(2) {
+    background-color: #DA70D6;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+mark:nth-child(3) {
+    background-color: #98FB98;
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+mark:nth-child(4) {
+    background-color: #6A5ACD;
+    color: seashell;
+    font-family:'Times New Roman', Times, serif
+}
+
+mark:nth-child(5) {
+    background-color: #AFEEEE;
+    color: #000080;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+mark:nth-child(6) {
+    background-color: #EEE8AA;
+    color:   rgb(158, 141, 129);
+    font-family:'PT Serif', serif;
+}
+
+mark:nth-child(7) {
+    background-color: #808000;
+    color: #FDF5E6;
+    font-family:'Inter', sans-serif;
+}
+
+.title:nth-child(1):hover {
+    background-color: #FA8072;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.title:nth-child(2):hover {
+    background-color: #98FB98;
+    font-family: cursive;
+}
+
+.title:nth-child(3):hover {
+    background-color: #6495ED;
+    font-family: 'PT Serif', serif;
 }
